@@ -40,15 +40,15 @@
 * Build the project using<code>mvn clean package</code>
 * Deploy the generated <code>cinema-back-1.0.war</code> image with servlet container such as Tomcat
 * Use Postman for easy communication with program, here is map of endpoints: 
-  * `POST /register` - registers new user (non-auth access);
+  * `POST /register` - register new user (non-auth access);
   * `GET /movie-sessions/available` - get list of sessions (user, admin);
   * `GET /cinema-halls` - get list of halls (user, admin);
   * `GET /users/by-email` - retrieve user's info (admin);
   * `POST`: `/cinema-halls` ,`/movies`, `/movie-sessions` - create corresponding objects (admin);
   * `PUT`, `DELETE` `/movie-sessions` - update and delete movie session (admin);
-  * `GET /orders /shopping-carts/by-user` - shows history of orders, list of tickets in cart (user);
-  * `PUT /shopping-carts/movie-sessions` - puts a ticket on this movie session to the cart (user);
-  * `POST /orders/complete` - executing order (user);
+  * `GET /orders /shopping-carts/by-user` - show history of orders, list of tickets in cart (user);
+  * `PUT /shopping-carts/movie-sessions` - put a ticket on this movie session to the cart (user);
+  * `POST /orders/complete` - execute order (user);
 * Built-in accounts: `admin@i.ua/admin12345`, `user@i.ua/user12345`
 
 ## Used stack
