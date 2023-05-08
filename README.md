@@ -9,7 +9,7 @@
 <td>
 <ul>
 <li>Session-based <b>authentication</b>, <b>encrypted password</b> storing in DB;</li>
-<li>Role-based <b>authorization</b> for "admin" and "user;</li>
+<li>Role-based <b>authorization</b> for "admin" and "user";</li>
 <li><b>Separated access</b> to endpoints for different roles;</li>
 <li><b>Admin tools</b>: get customer info, add movies, cinema halls, manage movie sessions</li>
 <li><b>Full customer cycle</b>: register, obtaing shopping cart, add tickets on movie session, complete order;</li>
@@ -49,7 +49,9 @@
   * `GET /orders /shopping-carts/by-user` - show history of orders, list of tickets in cart (user);
   * `PUT /shopping-carts/movie-sessions` - put a ticket on this movie session to the cart (user);
   * `POST /orders/complete` - execute order (user);
-* Built-in accounts: `admin@i.ua/admin12345`, `user@i.ua/user12345`
+* Built-in accounts:
+  * administrator login `admin@i.ua`, password `admin12345`
+  * regular user login `user@i.ua`, password `user12345`
 
 ## Used stack
 
