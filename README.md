@@ -51,7 +51,8 @@
   * `POST /orders/complete` - execute order (user);
 * Built-in accounts:
   * administrator login `admin@i.ua`, password `admin12345`;
-* Use my <a href="https://www.postman.com/material-administrator-34337113/workspace/cinema-back/collection/27097732-1b6bd6f6-db37-4271-9727-06c894830761?action=share&creator=27097732">Postman workspace</a> with request examples for reference
+* Use my <a href="https://www.postman.com/material-administrator-34337113/workspace/cinema-back/collection/27097732-1b6bd6f6-db37-4271-9727-06c894830761?action=share&creator=27097732">Postman workspace</a> with request examples for reference;
+* See <a href="https://youtu.be/CKF9XZxPt54">HowTo Postman</a> if needed.
 
 ## Used stack
 
