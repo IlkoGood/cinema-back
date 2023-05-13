@@ -13,7 +13,7 @@
 <li><b>Separated access</b> to endpoints for different roles;</li>
 <li><b>Admin tools</b>: get customer info, add movies, cinema halls, manage movie sessions</li>
 <li><b>Full customer cycle</b>: register, obtaing shopping cart, add tickets on movie session, complete order;</li>
-<li>Currently deployed at AWS <b><a href="http://13.53.243.222:81/">CINEMA</a></b> (address may be changed, feel free to write me here in GitHub);</li>
+<li>Currently deployed at AWS <b><a href="http://16.16.94.18:81/">CINEMA</a></b> (address may be changed, feel free to write me here in GitHub);</li>
 </ul>
 </td>
 </tr>
@@ -50,8 +50,8 @@
   * `PUT /shopping-carts/movie-sessions` - put a ticket on this movie session to the cart (user);
   * `POST /orders/complete` - execute order (user);
 * Built-in accounts:
-  * administrator login `admin@i.ua`, password `admin12345`
-  * regular user login `user@i.ua`, password `user12345`
+  * administrator login `admin@i.ua`, password `admin12345`;
+* Use my <a href="https://www.postman.com/material-administrator-34337113/workspace/cinema-back/collection/27097732-1b6bd6f6-db37-4271-9727-06c894830761?action=share&creator=27097732">Postman workspace</a> with request examples for reference
 
 ## Used stack
 
