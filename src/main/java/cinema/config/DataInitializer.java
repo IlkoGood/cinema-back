@@ -13,7 +13,8 @@ public class DataInitializer {
     private final RoleService roleService;
     private final UserService userService;
 
-    public DataInitializer(RoleService roleService, UserService userService) {
+    public DataInitializer(RoleService roleService,
+                           UserService userService) {
         this.roleService = roleService;
         this.userService = userService;
     }
@@ -29,12 +30,7 @@ public class DataInitializer {
         User admin = new User();
         admin.setEmail("admin@i.ua");
         admin.setPassword("admin12345");
-        admin.setRoles(Set.of(adminRole, userRole));
+        admin.setRoles(Set.of(adminRole));
         userService.add(admin);
-        User user = new User();
-        user.setEmail("user@i.ua");
-        user.setPassword("user12345");
-        user.setRoles(Set.of(adminRole, userRole));
-        userService.add(user);
     }
 }
